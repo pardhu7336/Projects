@@ -1,0 +1,20 @@
+.btn {
+    font-size: 25px;
+    background-color: aqua;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.7s;
+}
+
+.btn:hover {
+    background-color: pink;
+}
+
+.btn:active {
+    background-color: red;
+}

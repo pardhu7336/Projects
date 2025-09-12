@@ -1,0 +1,24 @@
+h1::first-letter{
+    font-size: larger;
+    color: red;
+}
+p::first-line{
+    font-size: large;
+    color: blue;
+}
+li::before{
+    content: "• ";
+    color: red;
+}
+#apple::after{
+    content: "🍏";
+    color: green;
+}
+#banana::after{
+    content: "🍌";
+    color: yellow;
+}
+#mango::after{
+    content: "🥭";
+    color: orange;
+}
